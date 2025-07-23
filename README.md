@@ -101,7 +101,7 @@ The analysis in `edtech platforms.ipynb` focused on:
 
 
 ## 📊 Power BI Dashboard Highlights  
-**Dashboard Name**: *EdTech Student Churn Dashboard – Engagement & Retention*
+**Dashboard Name**: *EdTech Student Churn Rate Dashboard – Engagement & Dropout Insights*
 
 ---
 
@@ -130,13 +130,22 @@ The analysis in `edtech platforms.ipynb` focused on:
 
 ---
 
-## 🔍 Key Insights
+## 🔍 Key Insights (Summary)
+📉 ~50% of students are at risk of dropping out.
 
-- Students with **<40 engagement score** are at the highest risk of dropping out  
-- **Diploma and Undergraduate** students show higher dropout probabilities  
-- **Soft Skills and T-Shirts-related** courses have more churn  
-- **High satisfaction and assignment submission rates** correlate with retention  
-- **State-wise dropout** varies significantly (e.g., UP, MP, and Delhi show higher risk)
+📚 Soft Skills and Business courses show the highest churn rates (>60%).
+
+🎓 Diploma and Undergraduate students are more likely to drop out.
+
+📈 Dropout likelihood increases sharply for students with <40% course progress.
+
+🧾 Low assignment submission and attendance rates strongly correlate with churn.
+
+😊 Higher satisfaction ratings (>4.0) significantly reduce dropout risk.
+
+🌍 States like UP, MP, and Delhi have above-average churn.
+
+🤖 The logistic regression model achieved ~79% accuracy in predicting churn.
 
 ---
 
