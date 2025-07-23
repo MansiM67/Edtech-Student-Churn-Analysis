@@ -98,10 +98,7 @@ The analysis in `edtech platforms.ipynb` focused on:
   - **Precision:** 78–80%
   - **F1-score:** 78%
 
-```python
-y = df['dropout_status'].apply(lambda x: 1 if x != 'Not Likely' else 0)
-model = LogisticRegression()
-model.fit(X_train, y_train)
+
 
 ## 📊 Power BI Dashboard Highlights  
 **Dashboard Name**: *EdTech Student Churn Dashboard – Engagement & Retention*
